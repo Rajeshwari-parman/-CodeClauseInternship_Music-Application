@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://uxwing.com/wp-content/themes/uxwing/download/09-controller-and-music/music.png">
+
+    <!--fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Eczar:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Eczar:wght@500&family=Proza+Libre&display=swap"
+        rel="stylesheet">
+    <!--end of fonts-->
+    <!--style-sheet-->
+    <link rel="stylesheet" href="song_style.css">
+    <!--end of style-sheet-->
+    <!--bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!--end of bootstrap-->
+    <title>YouTunes</title>
+    <script src="./script.js">
+
+    </script>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-danger bg-opacity-75" style="font-family: 'eczar';" id="p">
+        <div class="container-fluid">
+
+            <a class="navbar-brand" href="#" style="font-family:Roboto;font-size: 40px;" id="mainTitle">
+                <img id="mainTitle" src="https://uxwing.com/wp-content/themes/uxwing/download/09-controller-and-music/music.png"
+                    alt="" width="40" height="40" class="d-inline-block align-text-top">
+                YouTunes</a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                    <li class="nav-item">
+                        <a class="nav-link active text-danger text-center" id="navbarDropdown" aria-current="page"
+                            href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="navbarDropdown" href="songs.html">Songs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="navbarDropdown" type="button" class="btn btn-primary"
+                            data-bs-toggle="modal" data-bs-target="#exampleModalcontact">Contact Us</a>
+                        <div class="modal fade" id="exampleModalcontact" tabindex="-1"
+                            aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h2 class="modal-title text-dark" id="exampleModalLabel">Contact Us</h2>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body text-dark">
+                                        <b>Our Contact Details :</b><br>
+                                        <b>Phone : </b>+91 99999 99999 <br>
+                                        <b>EMail : </b>animalaid@helpus.com <br>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary"
+                                            data-bs-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle " href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Artists
+                        </a>
+                        <ul class="dropdown-menu bg-mute" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" style="color:#E98074;" id="navbarDropdown"
+                                    href="artists.html">Top Artists</a></li>
+                            <li><a class="dropdown-item" style="color:#E98074;" id="navbarDropdown"
+                                    href="#">Top Songs</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" style="color:#E98074;" id="navbarDropdown"
+                                    href="#">Favorites</a></li>
+                        </ul>
+                    </li>
+
+                </ul>
+
+                <form class="d-flex">
+                    <input class="form-control me-2 text-danger" type="text" id="myFilter0"
+                        placeholder="Search for Artists" onkeyup="myFunction(0)" aria-label="Search">
+                    <button class="btn btn-outline-light" type="submit">Search</button>
+                </form>
+
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <h1 class="center py-5 Maintitle">TOP 10 SONGS</h1>
+        
+        <article class="episode">
+          <div class="episode__number">01</div>
+          <div class="episode__content">
+            <div class="title">Positions</div>
+            <div class="story">
+              <p>
+                "Positions" debuted atop the US Billboard Hot 100, becoming Grande's fifth US number-one single and her third consecutive number-one debut of 2020, following "Stuck with U" and "Rain on Me". It extended her records as the first artist to have five number-one debut singles on the chart and for having all the lead singles of each of her albums debut within the top-10 of the chart. It also debuted at number one on the Billboard Global 200 and Billboard Global Excl. U.S., making "Positions" the first song to simultaneously debut atop both charts and the Hot 100. Elsewhere, the song topped the charts in Australia, Bulgaria, Canada, Greece, Hungary, Ireland, Israel, Lithuania, Malaysia, New Zealand, Singapore, Taiwan and the United Kingdom, giving Grande her seventh number-one in the UK. It also peaked in the top 10 of the charts in 30 other countries. "Positions" has also received sales certifications globally.
+              </p>
+            </div>
+          </div>
+        </article>
+        
+        <article class="episode">
+          <div class="episode__number">02</div>
+          <div class="episode__content">
+            <div class="title">Poker Face</div>
+            <div class="story">
+              <p>
+                "Poker Face" was acclaimed by most critics, who praised the song's robotic hook and chorus. The song attained worldwide success, topping the charts in 20 countries including the United States, the United Kingdom, Australia, New Zealand, Canada and many European countries. "Poker Face" was the best-selling single of 2009 worldwide, with over 9.5 million in sales that year. It is one of the best-selling singles of all time, having sold over 14 million copies. The accompanying music video for the song portrays Gaga singing it in various costumes and playing strip poker in a getaway villa. It was certified Diamond by the Recording Industry Association of America (RIAA) in 2015.
+              </p>
+            </div>
+          </div>
+        </article>
+        
+        <article class="episode">
+          <div class="episode__number">03</div>
+          <div class="episode__content">
+            <div class="title">wRoNg (feat. Kehlani)</div>
+            <div class="story">
+              <p>
+                This collab from Mind of Mine has received generally positive reviews, with praise for Malik's new musical direction and his vocal performance. Mind of Mine debuted at number one in several countries including the United Kingdom, United States, Australia, Canada, New Zealand, Norway, Portugal, and Sweden, with Malik becoming the first British male artist to debut at number one in both the UK and US with a debut single and debut studio album.
+              </p>
+            </div>
+          </div>
+        </article>
+        
+        <article class="episode">
+          <div class="episode__number">04</div>
+          <div class="episode__content">
+            <div class="title">Nasty</div>
+            <div class="story">
+              <p>
+                Positions is built around themes of sexual intimacy, attraction, romantic devotion, and endearment. Musically, it expands on the trap-infused R&B and pop sound of its predecessors, Sweetener (2018) and Thank U, Next (2019). Doja Cat, the Weeknd, and Ty Dolla Sign appear as guest features, alongside Megan Thee Stallion on the deluxe edition. Upon release, Positions was met with generally favorable reviews from music critics; Grande's vocal performance was often praised, though the album's lyrics and production style drew criticism. Publications ranked the album on various year-end best albums lists of 2020.
+              </p>
+            </div>
+          </div>
+        </article>
+
+        <article class="episode">
+            <div class="episode__number">05</div>
+            <div class="episode__content">
+              <div class="title">Save Your Tears Remix</div>
+              <div class="story">
+                <p>
+                    Globally "Save Your Tears" peaked at number one in 18 countries, while going top 10 in 33 others. The song was released as the album's fourth and final single on August 9, 2020, in Europe[4] and November 24, 2020, in the US. It was the official theme song of WrestleMania 37.[5] A remix of the track by Oneohtrix Point Never was officially released alongside the deluxe edition of its parent album on March 23, 2020.[6] "Save Your Tears" was the best-performing global single of 2021, earning 2.15 billion subscription stream equivalents globally, according to the International Federation of the Phonographic Industry (IFPI
+                </p>
+              </div>
+            </div>
+          </article>
+
+          <article class="episode">
+            <div class="episode__number">06</div>
+            <div class="episode__content">
+              <div class="title">Just like magic</div>
+              <div class="story">
+                <p>
+                    With the debut of Positions atop the Billboard 200, Grande earned her fifth number one album in the United States. It spent two consecutive weeks at number one in the country and was certified platinum by the Recording Industry Association of America for earning over a million album-equivalent units. Positions was the eighth-biggest album of 2021 on the Billboard 200. Elsewhere, the album reached the top spot in Argentina, Canada, Croatia, Ireland, Lithuania, New Zealand, Norway and the United Kingdom. At the 64th Annual Grammy Awards (2022), Positions was nominated for Best Pop Vocal Album, her fifth overall nomination in the category, tying her with Kelly Clarkson for the most nominations. The lead single "Positions" contended for Best Pop Solo Performance.
+                </p>
+              </div>
+            </div>
+          </article>
+          
+          <article class="episode">
+            <div class="episode__number">07</div>
+            <div class="episode__content">
+              <div class="title">in my head</div>
+              <div class="story">
+                <p>
+                    "In My Head" (stylized in all lowercase) is a song by American singer Ariana Grande, on her fifth studio album, Thank U, Next (2019). The track was written by Grande, Lindel Deon Nelson Jr., and Jameel Roberts alongside its producers Andrew "Pop" Wansel, Nathan "Happy" Perez and NOVA Wav's members Brittany "Chi" Coney and Denisia Andrews. It is a trap and R&B song that Grande says talks about "being in love with a version of somebody you've created in your head". Critics debated whether the subject of the song was comedian Pete Davidson or rapper Mac Miller, both former partners of Grande, and praised its personal lyrics. Following the release of Thank U, Next, it entered the charts in a number of countries including: Australia, Canada, Greece, the United Kingdom, the United States.
+                </p>
+              </div>
+            </div>
+          </article>
+
+          <article class="episode">
+            <div class="episode__number">08</div>
+            <div class="episode__content">
+              <div class="title">I Feel it coming</div>
+              <div class="story">
+                <p>
+                    "I Feel It Coming" is a song by Canadian singer-songwriter the Weeknd featuring French electronic duo Daft Punk, from his third studio album, Starboy (2016). It was written by the trio alongside Doc McKinney, Cirkut and Eric Chedeville, being produced by Daft Punk, with the Weeknd, McKinney and Cirkut serving as co-producers. The song was released for digital download on November 18, 2016, alongside "Party Monster", as promotional singles.[2] It was first sent to British contemporary hit radio on November 24, 2016, and it was released to US rhythmic contemporary radio on December 6, 2016, through XO and Republic Records, serving as the album's second single, following their previous collaboration "Starboy". It is also Daft Punk's final single before their breakup in 2021. It was named Song of the Year at the 2018 BMI R&B/Hip Hop Awards.                </p>
+              </div>
+            </div>
+          </article>
+
+          <article class="episode">
+            <div class="episode__number">09</div>
+            <div class="episode__content">
+              <div class="title">Bored</div>
+              <div class="story">
+                <p>
+                    "Bored" is a song by American singer-songwriter Billie Eilish from the soundtrack album, 13 Reasons Why (A Netflix Original Series Soundtrack) (2017). The song was written by Eilish, her brother Finneas O'Connell, Aron Forbes, and Tim Anderson. Production was solely handled by Finneas. It was released by Darkroom and Interscope Records for digital download and streaming on March 30, 2017, as the lead single from the soundtrack. A mid-tempo pop ballad, the song's lyrics see Eilish sing about finally discovering her former lover's mistakes. The song has received generally mixed reviews from music critics, with a number of them deeming it as forgettable.
+                </p>
+              </div>
+            </div>
+          </article>
+
+          <article class="episode">
+            <div class="episode__number">10</div>
+            <div class="episode__content">
+              <div class="title">Love in the Dark</div>
+              <div class="story">
+                <p>
+                    25 received generally positive reviews from music critics, who commended its production and Adele's vocal performance although some were critical of its formulaic nature and Adele's lack of taking risk. Issued nearly five years after the release of her second album, the internationally successful 21, the album was widely anticipated and Adele's record labels promoted the album with an extensive marketing campaign. 25 became a massive commercial success, debuting at number one in 32 countries and breaking first-week sales records in multiple countries, including the United Kingdom and United States. In the US, the album sold over 3.38 million copies in its first week of sales, marking the largest single-week sales for an album since Nielsen SoundScan began tracking point-of-sale music purchases in 1991. 25 was the world's best-selling album of the year for 2015, with 17.4 million copies sold within the year,[4] and has gone on to sell over 22 million copies worldwide, making it the fourth-best selling album of the 21st century, the second-best selling album of the 2010s (behind 21), and one of the best-selling albums of all-time. Following 21, it was certified Diamond by the RIAA, making Adele the only artist of the 2010s to achieve this certification with two albums.
+                </p>
+              </div>
+            </div>
+          </article>
+
+
+      </div>
+
+
+    <div class="px-4 py-5 text-center footer">
+        <h1 class="display-5 fw-bold">WEB TECHNOLOGIES - CBP</h1>
+        <div class="col-lg-6 mx-auto">
+            <p class="lead mb-4">This is a Music Web Application implemented under the guidence of Vamsinath by Mourya
+                Cheggoju, Sunil Kumar Bandi,
+                Jeevan Reddy Yasa, Siddharth Pabbisetty during the Academic year - 2022</p>
+            <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+                <button type="button" onclick="topFunction()" id="myBtn" title="Go to top"
+                    class="btn btn-danger btn-lg px-4 gap-3">Go Back to Top</button>
+                <button type="button" class=" btn btn-outline-secondary btn-lg px-4"><a id="vnrbtn"
+                        href="http://www.vnrvjiet.ac.in"> Visit VNR VJIET</a></button>
+            </div>
+        </div>
+    </div>
+</body>

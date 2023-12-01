@@ -1,0 +1,161 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  background: #444;
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+}
+
+p {
+  margin: 0 0 13px 0;
+}
+
+a {
+  color: #fff;
+}
+
+.center { text-align: center; }
+
+.container {
+  width: 95%;
+  max-width: 1220px;
+  margin: 0 auto;
+}
+
+.episode {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  position: relative;
+}
+
+.episode__number {
+  font-size: 10vw;
+  font-weight: 600;
+  padding: 10px 0;
+  position: sticky;
+  top: 0;
+  text-align: center;
+  height: calc(10vw + 20px);
+  transition: all 0.2s ease-in;
+}
+
+.episode__content {
+  border-top: 2px solid #fff;
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  grid-gap: 10px;
+  padding: 15px 0;
+}
+
+.episode__content .title {
+  font-weight: 600
+}
+
+.episode__content .story {
+  line-height: 26px;
+}
+
+@media (max-width: 600px) {
+  .episode__content {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 576px) {
+  .episode__content .story {
+    font-size: 15px;
+  }
+}
+body,html{
+    font-family: roboto;
+}
+.navbar{
+    background-color: #fcfbf6;
+}
+#main{
+    background-color: #fcfbf6;
+}
+#tags{
+    background-color: #320745;
+    color: #D3BBDD;
+}
+.navbar a{
+    text-decoration: none;
+    font-family: Roboto;
+    font-size: xx-large;
+    font-weight: 300;
+    color:#E98074;
+}
+#intro{
+    background-color: #EAE7DC;
+    color:#E98074;
+}
+#link{
+    align-items:flex-end;
+}
+.active{
+  background-color: rgb(255, 241, 241);
+}
+#intro-text{
+    font-family: Roboto;
+}
+#intro-header{
+    font-family: Roboto;
+}
+#vnrbtn{
+  text-decoration: none;
+  color: grey;
+}
+#vnrbtn:hover{
+  text-decoration: none;
+  color: white;
+}
+#o{
+    text-decoration: none;
+    border:#D3BBDD solid 1px;
+    font-weight: 300;
+    font-size:larger; 
+    color:#D3BBDD;
+}
+#mainTitle{
+  font-size:30px;
+  color:rgb(0, 0, 0);
+}
+#p{
+   background-color: rgb(240, 195, 226);
+}
+#r{
+    background-color: #fcfbf6;
+    color:#E98074;
+    font-family: Roboto;
+}
+#navbarDropdown{
+  font-size: 25px;
+  font-family: Roboto;
+  color:rgb(255, 221, 219);
+}
+#navbarDropdown:hover{
+  cursor: pointer;
+}
+#searchDiv,#myItems,.footer,html,body{
+  background-color: rgba(239, 231, 211, 0.61);
+}
+li{
+  font-size: 20px;
+  color:#E98074;
+  padding-right: 40px;
+  padding-left: 30px;
+}
+.bg-danger {
+  --bs-bg-opacity: 1;
+  background-color: rgba(var(--bs-success-rgb), var(--bs-bg-opacity)) !important;
+}
+.Maintitle{
+	font-size: 100px;
+	color:#89243a;
+}
